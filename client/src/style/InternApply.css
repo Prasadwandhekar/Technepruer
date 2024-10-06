@@ -1,0 +1,98 @@
+/* InternApply.css */
+.intern-apply-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .intern-apply-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .internship-name {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #666;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    border-color: #67c23a;
+    outline: none;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #67c23a;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #5dae32;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .intern-apply-form {
+      padding: 15px;
+    }
+  
+    .form-title {
+      font-size: 20px;
+    }
+  
+    .internship-name {
+      font-size: 18px;
+    }
+  
+    input,
+    textarea {
+      font-size: 12px;
+    }
+  
+    .submit-button {
+      font-size: 14px;
+    }
+  }
+  

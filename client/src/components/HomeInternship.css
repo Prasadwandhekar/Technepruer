@@ -1,0 +1,88 @@
+/* Container for the internship section */
+.home-internship-section {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  /* Flex container for content alignment */
+  .container-interns {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Styling for text section */
+  .text-sectionAll {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+  }
+  
+  .text-sectionAll h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .text-sectionAll p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .btn-view-internships {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-view-internships:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styling for image section */
+  .image-sectionAll {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-sectionAll > div {
+    width: 100%;
+    max-width: 500px; /* Adjust based on your LottieAnimation component */
+    height: auto;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .container-interns {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .text-sectionAll,
+    .image-sectionAll {
+      max-width: 100%;
+    }
+  
+    .text-sectionAll h2 {
+      font-size: 2rem;
+    }
+  
+    .text-sectionAll p {
+      font-size: 1rem;
+    }
+  }
+  

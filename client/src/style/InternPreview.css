@@ -1,0 +1,102 @@
+/* Container for the internship preview */
+.internship-preview-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+/* Main internship preview card */
+.internship-preview {
+    max-width: 900px;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Image styling */
+.internship-photo {
+    width: 100%;
+    max-width: 300px; /* Reduced photo size */
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Title styling */
+.internship-title {
+    margin: 0; /* Remove default margin */
+    padding-bottom: 20px; /* Space below title */
+    font-size: 2.5em;
+    color: #343a40;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* General paragraph styling */
+.internship-preview p {
+    margin: 0; /* Remove default margin */
+    padding: 10px 0; /* Space between paragraphs */
+    font-size: 1.1em;
+    color: #495057;
+    line-height: 1.6;
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Ensure paragraphs use full width of the container */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Bold text within paragraphs */
+.internship-preview p strong {
+    font-weight: 700;
+    color: #212529;
+}
+
+/* Add a subtle border to paragraphs for emphasis */
+.internship-preview p {
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+    .internship-preview {
+        padding: 15px;
+    }
+    .internship-title {
+        font-size: 2em;
+    }
+    .internship-preview p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .internship-preview {
+        padding: 10px;
+    }
+    .internship-title {
+        font-size: 1.5em;
+    }
+    .internship-preview p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .internship-preview {
+        padding: 8px;
+    }
+    .internship-title {
+        font-size: 1.25em;
+    }
+    .internship-preview p {
+        font-size: 0.8em;
+    }
+}
